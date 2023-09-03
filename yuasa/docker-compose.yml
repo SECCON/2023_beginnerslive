@@ -1,0 +1,19 @@
+version: '3.9'
+
+services:
+  trial0:
+    build: ./trial0
+    ports:
+      - "5501:5501"
+  trial1:
+    build: ./trial1
+    ports:
+      - "5502:5502"
+  trial2:
+    build: ./trial2
+    ports:
+      - "5503:5503"
+  trial3:
+    build: ./trial3
+    ports:
+      - "5504:5504"
